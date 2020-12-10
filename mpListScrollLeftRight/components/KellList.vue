@@ -1,0 +1,23 @@
+<template>
+	<view style="position: relative;">
+		<view style="width: 750rpx;overflow-x: scroll;">
+			<slot name="listHscroll"></slot>
+		</view>
+		<view :style="{
+			'width': '750rpx',
+			'position': 'absolute',
+			'left': '0rpx',
+			'top': '0rpx',
+			'background-color': 'rgba(50,34,244,.0)',
+			'pointer-events':'none'
+		}">
+			<slot name="fixedFloatBussines"></slot>
+		</view>
+	</view>
+</template>
+
+<script>
+</script>
+
+<style>
+</style>

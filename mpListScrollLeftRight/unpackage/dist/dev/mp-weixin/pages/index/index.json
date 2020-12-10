@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "kell-list": "/components/KellList",
+    "right-cell": "/components/RightCell"
+  }
+}
